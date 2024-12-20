@@ -80,3 +80,36 @@ body {
     margin-top: 5px;
     border-radius: 10px;
 }
+
+.two {
+    background-color: white;
+    flex-grow: 1;
+}
+
+.information-header-text {
+    font-size: 32px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.illustration-list {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 25px;
+}
+
+.illustration-container {
+    font-size:  18px;
+    width: 135px;
+}
+
+.illustration-placeholder {
+    width: 125px;
+    height: 125px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+}
