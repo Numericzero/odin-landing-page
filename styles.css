@@ -13,6 +13,10 @@ body {
     flex-grow: 1;
 }
 
+.one-container {
+    flex-basis: 360px;
+}
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -86,6 +90,10 @@ body {
     flex-grow: 1;
 }
 
+.two-container {
+    flex-basis: 700px;
+}
+
 .information-header-text {
     font-size: 32px;
     color: #1F2937;
@@ -112,4 +120,29 @@ body {
     border-style: solid;
     border-width: 5px;
     border-radius: 10px;
+}
+
+.three {
+    background-color: #E5E7EB;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.three-container {
+    flex-basis: 700px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 5px;
+}
+
+.quote-source {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 5px;
 }
