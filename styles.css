@@ -137,6 +137,7 @@ body {
 .quote {
     font-size: 36px;
     font-style: italic;
+    font-weight: light;
     color: #1F2937;
     margin-bottom: 5px;
 }
@@ -145,4 +146,44 @@ body {
     text-align: right;
     font-weight: bold;
     margin-top: 5px;
+}
+
+.four {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.four-container {
+    margin: 75px auto;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 800px;
+    height: 100px;
+    padding: 50px, 25px;
+    gap: 85px;
+    color: white;
+    border-radius: 5px;
+}
+
+.action-text {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.signup-text {
+    margin-top: 5px;
+}
+
+.button2 {
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
